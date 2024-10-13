@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TD1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrer le premier mot"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrer le deuxième mot"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un espace"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonConcatener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONCATÉNER"
+        android:onClick="concat"/>
+
+</LinearLayout>
